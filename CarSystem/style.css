@@ -1,0 +1,66 @@
+/* ...existing code... */
+#loginBox {
+  background: rgba(255, 255, 255, 0.92);
+  border-radius: 1.2rem;
+  box-shadow: 0 6px 24px rgba(44, 83, 100, 0.18);
+  padding: 2.5rem 2rem;
+  border: 1.5px solid #2c5364;
+  transition: box-shadow 0.3s;
+}
+#loginBox:hover {
+  box-shadow: 0 12px 32px rgba(44, 83, 100, 0.25);
+}
+.form-label {
+  background: rgba(44, 83, 100, 0.10);
+  padding: 0.35rem 1rem;
+  border-radius: 0.7rem;
+  font-weight: 700;
+  color: #183153;
+  display: inline-block;
+  margin-bottom: 0.3rem;
+  letter-spacing: 0.5px;
+  box-shadow: 0 1px 4px rgba(44, 83, 100, 0.07);
+}
+.btn-success, .btn-primary {
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  border-radius: 0.7rem;
+  box-shadow: 0 2px 8px rgba(44, 83, 100, 0.10);
+  transition: background 0.2s, box-shadow 0.2s;
+}
+.btn-success:hover, .btn-primary:hover {
+  box-shadow: 0 4px 16px rgba(44, 83, 100, 0.18);
+  filter: brightness(1.08);
+}
+input.form-control {
+  border-radius: 0.6rem;
+  border: 1.5px solid #2c5364;
+  box-shadow: 0 1px 4px rgba(44, 83, 100, 0.07);
+  transition: border 0.2s;
+}
+input.form-control:focus {
+  border: 1.5px solid #0f2027;
+  outline: none;
+  box-shadow: 0 2px 8px rgba(44, 83, 100, 0.15);
+}
+.card {
+  border-radius: 1.5rem !important;
+}
+#dashboard .card-body {
+  background: rgba(255,255,255,0.7);
+  border-radius: 1rem;
+}
+#carsTable th, #carsTable td {
+  vertical-align: middle;
+}
+#carsTable th {
+  background: #2c5364;
+  color: #fff;
+}
+#carsTable tr:nth-child(even) td {
+  background: #f2f6fa;
+}
+#carsTable tr:hover td {
+  background: #e3eefa;
+}
+/* ...existing code... */
